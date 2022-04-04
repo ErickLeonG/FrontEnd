@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 3em;
+  color: #1f3e72;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 2em;
+  color: #1f3e72;
+  font-weight: bolder;
+}
+h3 {
+  font-size: 1.5em;
+  color: #3959d7;
+}
+h4 {
+  font-size: 1.25em;
+  color: #1f3e72;
+}
+button {
+  background-color: #3959d7;
+  color: #ffffff;
+}
+p {
+  color: #6d7b93;
+  font-weight: normal;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+nav {
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  width: 100%;
+}
+nav h1 {
+  font-size: 1.5em;
+  display: inline;
+  color: #3959d7;
+  text-align: center;
+  padding: 1em 1.5em;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  display: inline;
+  margin: 0.75em 0.75em;
+}
+nav li button {
+  color: #6d7b93;
+  background: none;
+  border: 0px;
+  border-radius: 5px;
+  padding: 1em 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+}
+footer {
+  padding: 3em;
+  background-color: #e3eeff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hoax-button {
+  font-weight: normal;
+  background-color: #3959d7;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 1em 1.5em;
+  font-size: 1em;
+  box-shadow: 1px 5px 3px 2px rgba(57, 89, 215, 0.15);
+}
+.section-info {
+  width: 60%;
+  display: flex;
+}
+.side-image {
+  width: 40%;
+  height: 100%;
+}
+.main-content {
+  width: 80%;
+  height: auto;
+  margin: 10% auto;
+}
+.icon {
+  display: inline-block;
+  color: #1f3e72;
+  margin-right: 1em;
+}
+.schedule {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 125%;
+  border-radius: 0 8px 8px 8px;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.801);
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 5px 2px rgba(41, 41, 41, 0.15);
+}
+.schedule-type {
+  width: 25%;
+}
+.vaccine-options {
+  border-style: none;
+  text-decoration: none;
+  color: #1f3e72;
+  font-size: 1em;
+  margin-top: 0;
+}
+.h1p {
+  width: 50%;
+}
+.vaccines-section {
+  height: auto;
+  padding: 2em;
+}
+.vaccine-image {
+  height: 3em;
+  margin: auto;
+}
+.section-reason {
+  height: auto;
+  width: 50%;
+}
+.reason-content {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  padding: 1em;
+}
+.section-reason-charts {
+  height: 100%;
+  padding: 1em 12em;
+  align-items: center;
+  align-content: center;
+}
+.reason-chart {
+  max-width: 22.5%;
+  margin: auto;
+  min-height: 15em;
+  padding: 2em;
+  border: 3px solid #eeeeee;
+  border-radius: 10px;
+}
+.side-text {
+  padding: 6em;
+  width: 80%;
+  margin: 1em 0;
+}
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.contact-chart {
+  border: solid #6d7b932a 1px;
+  border-radius: 8px;
+  display: flex;
+  min-width: 42%;
+  flex-direction: column;
+  padding: 1.5em;
+  margin: 1em auto;
+}
+.contact-button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.footer-goal {
+  width: 50%;
+}
+.footer-info {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.p2 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.main-content h4 {
+  margin-top: 3em;
+  font-size: 1em;
+}
+.side-text p {
+  margin: 1em 0;
+}
+.vaccine-image img {
+  filter: grayscale(100%);
+  height: 100%;
+  opacity: 20%;
+}
+.schedule-type button {
+  height: fit-content;
+  display: flex;
+  font-weight: normal;
+  padding: 1.25em 3em;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 1em;
+  box-shadow: 2px 2px 5px 2px rgba(57, 89, 215, 0.15);
+}
+.schedule-type h5 {
+  color: #999999;
+  font-size: 1em;
+  padding: 0.5em;
+}
+.schedule-type h4 {
+  padding: 0.5em;
+  margin-top: 0;
+}
+.section-reason p {
+  margin: 1.5em 0;
+}
+.reason-chart p {
+  margin-top: 2em;
+}
+.preparations-list li {
+  padding: 1em;
+  list-style: none;
+  border: 1.5px solid #eeeeee;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  color: #1f3e72;
+}
+.contact-chart div {
+  width: 100%;
+}
+.contact-button button {
+  height: 3em;
+  width: 13em;
+  color: #3959d7;
+  background-color: #f1f5ff;
+  border: none;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.side-image img {
+  object-fit: cover;
+  width: 100%;
+}
+.p2 p {
+  margin-top: 2em;
+  margin-left: 1em;
+}
+.footer-info div {
+  width: auto;
+  height: auto;
+  margin-left: 20%;
+  font-size: 1em;
+}
+.footer-goal p {
+  width: 50%;
+}
+.main-content h1,
+.main-content p,
+.main-content ul {
+  margin: 20px;
+}
+
+.footer-info div ul {
+  list-style: none;
+}
+.footer-info div li {
+  margin-top: 1.5em;
+  color: #6d7b93;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.reason-chart:hover {
+  transform: translate(0, -20px);
+  box-shadow: 4px 4px 10px 4px rgba(57, 89, 215, 0.15);
+  transition-duration: 1s;
+}
+.contact-chart:hover {
+  box-shadow: 3px 3px 8px 1px rgba(57, 89, 215, 0.15);
+  transition-duration: 1s;
+}
+.top-Button:hover,
+.hoax-button:hover {
+  transform: translate(0, -5px);
+  color: #ffffff;
+  background-color: #3959d7;
+  box-shadow: 2px 10px 6px 3px rgba(57, 89, 215, 0.25);
+  transition-duration: 1s;
+}
+.schedule-type button:hover {
+  transform: translate(0, -3px);
+  box-shadow: 2px 10px 6px 3px rgba(57, 89, 215, 0.25);
+  transition-duration: 1s;
+}
+.contact-button button:hover {
+  color: #ffffff;
+  background-color: #3959d7;
+  box-shadow: 3px 3px 8px 1px rgba(57, 89, 215, 0.75);
+  transition-duration: 1s;
+}
